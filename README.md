@@ -9,21 +9,20 @@ The strap has two methods:
 
 ---
 
-Import
+Import:
 `import simpleprogressbar`
-or
+or:
 `from simpleprogressbar import progressBar`
 
-Create an object with default values
-With the first method of import
+Create an object with default values with the first method of import:
 `my_bar = simpleprogressbar.progressBar()`
 
-With the second method of import
+Create an object with default values with the second method of import:
 `my_bar = progressBar()`
 
 > {10%}[## ------------------]
 
-Create an object with its own properties
+Create an object with its own properties:
 `my_bar = progressBar(width = 10, char = '>', spc = '.')`
 
 > {10%}[> ---------]
