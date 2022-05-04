@@ -40,4 +40,7 @@ Create an object with its own properties:
     end = 100
     for i in range(end):
         sleep(0.1)
-        my_bar(i / end)
+        my_bar.next(i / end)
+    
+    my_bar.end()
+    
