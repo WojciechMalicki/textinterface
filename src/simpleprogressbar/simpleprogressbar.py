@@ -1,4 +1,4 @@
-class progressBar():
+class ProgressBar:
     def __init__(self, width:int = 20, char:str = '#', spc:str = '-') -> None:
         self.PERCENT_LENGTH = 5
         self.width = int(width) - self.PERCENT_LENGTH
